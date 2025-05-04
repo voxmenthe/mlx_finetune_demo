@@ -1,0 +1,5 @@
+lora_parameters:
+  rank: 256       # LoRA rank (dimension of the adapter matrices)
+  dropout: 0.05  # Dropout applied to the LoRA matrices
+  scale: 12.0    # Scaling factor for the LoRA update (higher means more influence) - original 10.0
+learning_rate: 8e-6 # Overrides LEARNING_RATE in the bash script

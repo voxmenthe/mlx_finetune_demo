@@ -1,0 +1,9 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+Most of this project's unique code lives in the `src` folder and the subfolders within it.
+There are multiple reference projects included within the project root. These folders are prefaced with `mlx-`, for example `mlx-lm`, `mlx-vlm` as well as `synthetic-data-kit` etc.. Never modify existing files in those folders. Literally never. Instead, when you would like to modify anything there, always make a copy in the `src/copies` folder and make your changes there.
+
+Also note that `mlx-examples` may have some overlap with some of the other projects, and should in most cases be disregarded, unless the information is not available in the other project. So, for example, for LLM-related inference and post-training examples, the `mlx-lm` folder should be the preferred source, but there may occasionally be information that is only available in the `mlx-examples` folder.
