@@ -3,9 +3,9 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
-name = "mlx_overall"
+name = "mlx_finetune_demo"
 version = "0.1.0"
-description = "MLX Overall Repo"
+description = "MLX Finetuning Demo"
 authors = ["Jeff Coggshall <thenextlocalminima@gmail.com>"]
 readme = "README.md"
 packages = [
@@ -19,11 +19,6 @@ pip = "*"
 accelerate = "*"
 mlx = "*"
 mlx-lm = "*"
-mlx-audio = "*"
-mlx-vlm = "*"
-mlx-whisper = "*"
-llm-mlx = "*"
-mlx-embeddings = "*"
 mlx_optimizers = "*"
 markitdown = "*"
 PyYAML = "*"
