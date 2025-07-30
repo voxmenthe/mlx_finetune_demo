@@ -1,52 +1,17 @@
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
-
-[tool.poetry]
-name = "mlx_finetune_demo"
+[project]
+name = "mlx-finetune-demo"
 version = "0.1.0"
-description = "MLX Finetuning Demo"
-authors = ["Jeff Coggshall <thenextlocalminima@gmail.com>"]
+description = "Add your description here"
 readme = "README.md"
-packages = [
-    { include = "src" }
+requires-python = ">=3.12"
+dependencies = [
+    "mlx>=0.26.2",
+    "mlx-lm>=0.25.3",
+    "datasets",
+    "transformers",
+    "huggingface_hub",
+    "ipykernel",
+    "jupyter",
+    "ipywidgets",
+    "torch"
 ]
-license = "MIT"
-
-[tool.poetry.dependencies]
-python = ">=3.12"
-pip = "*"
-accelerate = "*"
-mlx = "*"
-mlx-lm = "*"
-mlx_optimizers = "*"
-markitdown = "*"
-PyYAML = "*"
-tokenizers = "*"
-numpy = "*"
-pandas = "*"
-matplotlib = "*"
-datasets = "*"
-transformers = "*"
-huggingface_hub = "*"
-hf_transfer = "*"
-ipykernel = "*"
-sentencepiece = "*"
-torch = "*"
-torchao = "*"
-torchvision = "*"
-torchaudio = "*"
-fairscale = "*"
-fire = "*"
-jax = "*"
-flax = "*"
-optax = "*"
-einops = "*"
-diffusers = "*"
-tqdm = "*"
-rank-bm25 = {git = "https://github.com/dorianbrown/rank_bm25.git"}
-sentence-transformers = "*"
-
-[tool.poetry.scripts]
-# Add command line scripts here
-
