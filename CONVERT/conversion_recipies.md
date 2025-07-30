@@ -24,7 +24,7 @@ https://github.com/ml-explore/mlx-lm/blob/main/mlx_lm/LORA.md#Data.
 
 models: zai-org/GLM-4.5-Air
 
-mlx_lm.dwq --model zai-org/GLM-4.5-Air --mlx-path GLM-4.5-Air-6bit-DWQ --max-seq-length 2048 --batch-size 4 --learning-rate 6e-8 --group-size 32 --bits 6
-mlx-community/GLM-4.5-Air-6bit
+mlx_lm.dwq --model zai-org/GLM-4.5-Air --mlx-path mlx-community/GLM-4.5-Air-8bit-DWQ --max-seq-length 2048 --batch-size 4 --learning-rate 8e-8 --group-size 32 --bits 8
+
 
 mlx_lm.dwq --model Qwen/Qwen3-30B-A3B-Instruct-2507 --mlx-path Qwen3-30B-A3B-Instruct-2507-6bit-DWQ --max-seq-length 2048 --batch-size 4 --learning-rate 1e-7 --group-size 32 --bits 6
