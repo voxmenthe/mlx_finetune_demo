@@ -5,8 +5,8 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "mlx>=0.26.2",
-    "mlx-lm>=0.25.3",
+    "mlx @ git+https://github.com/ml-explore/mlx",
+    "mlx-lm @ git+https://github.com/ml-explore/mlx-lm.git",
     "datasets",
     "transformers",
     "huggingface_hub",
