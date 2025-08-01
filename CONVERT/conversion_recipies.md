@@ -28,3 +28,10 @@ mlx_lm.dwq --model zai-org/GLM-4.5-Air --mlx-path mlx-community/GLM-4.5-Air-8bit
 
 
 mlx_lm.dwq --model Qwen/Qwen3-30B-A3B-Instruct-2507 --mlx-path Qwen3-30B-A3B-Instruct-2507-6bit-DWQ --max-seq-length 2048 --batch-size 4 --learning-rate 1e-7 --group-size 32 --bits 6
+
+======== evals
+mlx_lm.evaluate --model Qwen3-30B-A3B-Instruct-2507-6bit-DWQ-lr5e-8 --tasks mmlu_pro_computer_science --max-tokens 5000 --no-apply-chat-template
+
+mlx_lm.evaluate --model Qwen3-30B-A3B-Instruct-2507-6bit-DWQ-lr3e-7 --tasks mmlu_pro_computer_science --max-tokens 5000 --no-apply-chat-template
+
+mlx_lm.evaluate --model Qwen3-30B-A3B-Instruct-2507-6bit-DWQ-lr8e-8 --tasks mmlu_pro_computer_science --max-tokens 5000 --no-apply-chat-template

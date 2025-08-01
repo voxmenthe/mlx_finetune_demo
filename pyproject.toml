@@ -6,7 +6,7 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     #"mlx @ git+https://github.com/ml-explore/mlx",
-    #"mlx-lm @ git+https://github.com/ml-explore/mlx-lm.git",
+    "mlx-lm @ git+https://github.com/ml-explore/mlx-lm.git",
     "mlx",
     "mlx-lm",
     "datasets",
@@ -15,5 +15,6 @@ dependencies = [
     "ipykernel",
     "jupyter",
     "ipywidgets",
-    "torch"
+    "torch",
+    "lm_eval"
 ]
