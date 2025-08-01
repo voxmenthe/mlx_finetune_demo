@@ -1,0 +1,7 @@
+{
+    "mmlu_pro_computer_science": {
+        "alias": "computer_science",
+        "exact_match,custom-extract": 0.7926829268292683,
+        "exact_match_stderr,custom-extract": 0.020044980247224457
+    }
+}

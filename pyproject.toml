@@ -8,7 +8,7 @@ dependencies = [
     #"mlx @ git+https://github.com/ml-explore/mlx",
     "mlx-lm @ git+https://github.com/ml-explore/mlx-lm.git",
     "mlx",
-    "mlx-lm",
+    #"mlx-lm",
     "datasets",
     "transformers",
     "huggingface_hub",
