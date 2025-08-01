@@ -21,10 +21,12 @@ https://github.com/ml-explore/mlx-lm/blob/main/mlx_lm/LORA.md#Data.
         "--data-path",
         type=str,
         default="allenai/tulu-3-sft-mixture",
-
+'voxmenthe/merged-sft-coding-mix2'
 models: zai-org/GLM-4.5-Air
 
 mlx_lm.dwq --model zai-org/GLM-4.5-Air --mlx-path mlx-community/GLM-4.5-Air-8bit-DWQ --max-seq-length 2048 --batch-size 4 --learning-rate 8e-8 --group-size 32 --bits 8
 
 
 mlx_lm.dwq --model Qwen/Qwen3-30B-A3B-Instruct-2507 --mlx-path Qwen3-30B-A3B-Instruct-2507-6bit-DWQ --max-seq-length 2048 --batch-size 4 --learning-rate 1e-7 --group-size 32 --bits 6
+
+mlx_lm.dwq --model Qwen/Qwen3-Coder-30B-A3B-Instruct --mlx-path Qwen3-Coder-30B-A3B-Instruct-8bit-DWQ-lr2e7 --max-seq-length 2048 --batch-size 4 --learning-rate 2e-7 --group-size 32 --bits 8

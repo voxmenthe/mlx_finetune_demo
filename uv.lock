@@ -1082,7 +1082,7 @@ requires-dist = [
     { name = "ipywidgets" },
     { name = "jupyter" },
     { name = "mlx" },
-    { name = "mlx-lm" },
+    { name = "mlx-lm", git = "https://github.com/ml-explore/mlx-lm.git" },
     { name = "torch" },
     { name = "transformers" },
 ]
@@ -1090,7 +1090,7 @@ requires-dist = [
 [[package]]
 name = "mlx-lm"
 version = "0.26.2"
-source = { registry = "https://pypi.org/simple" }
+source = { git = "https://github.com/ml-explore/mlx-lm.git#7c987941f20f82e745257db4643e2759c128e837" }
 dependencies = [
     { name = "jinja2" },
     { name = "mlx" },
@@ -1098,10 +1098,6 @@ dependencies = [
     { name = "protobuf" },
     { name = "pyyaml" },
     { name = "transformers" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/1d/9c/2ce8b25a3038af5673f48fd457897baf8a5b561b89ceb69154e904b1c37f/mlx_lm-0.26.2.tar.gz", hash = "sha256:77e6f875bdea90a71174357363622b90a071d9c279bc958021e17e38d69fbc2a", size = 165682, upload-time = "2025-07-30T21:26:50.348Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/2a/da/dd8738b76ee57d78a2db5a2369338ffe93580e5ed7de3790264f80f32bd0/mlx_lm-0.26.2-py3-none-any.whl", hash = "sha256:632624c4753a290dfe68f368d21f24883105cd8bba4c6ba5cf0905fecd626c1e", size = 227428, upload-time = "2025-07-30T21:26:49.019Z" },
 ]
 
 [[package]]
