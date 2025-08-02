@@ -49,3 +49,6 @@ mlx_lm.upload --path ./Qwen3-30B-A3B-Instruct-2507-5bit-DWQ-lr9e-8 --upload-repo
 mlx_lm.dwq --model Qwen/Qwen3-30B-A3B-Instruct-2507 --mlx-path Qwen3-30B-A3B-Instruct-2507-5bit-DWQ-lr1e-7 --max-seq-length 2048 --batch-size 4 --learning-rate 1e-7 --group-size 32 --bits 5
 touch Qwen3-30B-A3B-Instruct-2507-5bit-DWQ-lr1e-7/README.md
 mlx_lm.upload --path ./Qwen3-30B-A3B-Instruct-2507-5bit-DWQ-lr1e-7 --upload-repo mlx-community/Qwen3-30B-A3B-Instruct-2507-5bit-DWQ-lr1e-7
+
+
+mlx_lm.dwq --model zai-org/GLM-4.5-Air --mlx-path mlx-community/GLM-4.5-Air-5bit-DWQ-lr2e-7 --max-seq-length 2048 --batch-size 4 --learning-rate 2e-7 --group-size 32 --bits 5
