@@ -16,3 +16,4 @@ mlx_models
 **/allthekingsmen.txt
 Qwen*DWQ*
 **/*.egg-info
+mlx-quantization/models

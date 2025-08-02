@@ -16,5 +16,10 @@ dependencies = [
     "jupyter",
     "ipywidgets",
     "torch",
-    "lm_eval"
+    "lm_eval",
+    "datasets",
+    "accelerate",
+    "sentencepiece",
+    "protobuf",
+    "evaluate"
 ]
