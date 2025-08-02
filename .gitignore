@@ -17,3 +17,4 @@ mlx_models
 Qwen*DWQ*
 **/*.egg-info
 mlx-quantization/models
+uv.lock
