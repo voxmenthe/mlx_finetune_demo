@@ -69,3 +69,15 @@ mlx-community/GLM-4.5-Air-5bit
     "exact_match,custom-extract": 0.7634146341463415,
     "exact_match_stderr,custom-extract": 0.021014183737081388
 }
+mlx-community/Qwen3-Coder-30B-A3B-Instruct-bf16
+{
+    "alias": "computer_science",
+    "exact_match,custom-extract": 0.7268292682926829,
+    "exact_match_stderr,custom-extract": 0.02203289844309934
+}
+mlx-community/Qwen3-30B-A3B-Thinking-2507-bf16
+{
+    "alias": "computer_science",
+    "exact_match,custom-extract": 0.7829268292682927,
+    "exact_match_stderr,custom-extract": 0.020384591313839226
+}
