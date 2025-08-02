@@ -1,0 +1,42 @@
+# Core MLX Framework
+mlx-lm>=0.12.0
+
+# Machine Learning Libraries
+torch>=2.0.0
+transformers>=4.40.0
+tokenizers>=0.15.0
+datasets>=2.16.0
+accelerate>=0.25.0
+
+# Hugging Face Integration
+huggingface_hub>=0.20.0
+
+# Text Processing
+sentencepiece>=0.1.99
+protobuf>=4.21.0
+
+# Quantization Support
+bitsandbytes>=0.41.0
+
+# Jupyter Environment
+jupyter>=1.0.0
+jupyterlab>=4.0.0
+ipywidgets>=8.0.0
+
+# Progress Bars and Utilities
+tqdm>=4.65.0
+numpy>=1.24.0
+scipy>=1.10.0
+
+# File Handling
+safetensors>=0.4.0
+
+# Optional Performance Libraries
+psutil>=5.9.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Development Tools (Optional)
+black>=23.0.0
+flake8>=6.0.0
+isort>=5.12.0

@@ -63,3 +63,9 @@ Qwen3-Coder-30B-A3B-Instruct-8bit-DWQ-lr9e8
     "exact_match,custom-extract": 0.7292682926829268,
     "exact_match_stderr,custom-extract": 0.02197108846947813
 }
+mlx-community/GLM-4.5-Air-5bit
+{
+    "alias": "computer_science",: 100%|
+    "exact_match,custom-extract": 0.7634146341463415,
+    "exact_match_stderr,custom-extract": 0.021014183737081388
+}
