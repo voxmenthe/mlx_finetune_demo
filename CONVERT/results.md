@@ -57,3 +57,9 @@ Results:
     "exact_match,custom-extract": 0.7048780487804878,
     "exact_match_stderr,custom-extract": 0.022552572925167262
 }
+Qwen3-Coder-30B-A3B-Instruct-8bit-DWQ-lr9e8
+{
+    "alias": "computer_science",
+    "exact_match,custom-extract": 0.7292682926829268,
+    "exact_match_stderr,custom-extract": 0.02197108846947813
+}
