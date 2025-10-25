@@ -3,11 +3,12 @@ name = "mlx-finetune-demo"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.13"
 dependencies = [
     #"mlx @ git+https://github.com/ml-explore/mlx",
     "mlx-lm @ git+https://github.com/ml-explore/mlx-lm.git",
     "mlx",
+    "mlx-vlm",
     #"mlx-lm",
     "datasets",
     "transformers",
@@ -16,10 +17,15 @@ dependencies = [
     "jupyter",
     "ipywidgets",
     "torch",
+    "torchvision",
     "lm_eval",
     "datasets",
     "accelerate",
     "sentencepiece",
     "protobuf",
-    "evaluate"
+    "evaluate",
+    "hf_transfer",
+    "gradio",
+    "pymupdf",
+    "pdf2image",
 ]

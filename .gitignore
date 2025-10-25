@@ -18,3 +18,6 @@ Qwen*DWQ*
 **/*.egg-info
 mlx-quantization/models
 uv.lock
+text_output*.md
+.DS_Store
+output*.md
